@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  color: #222;
+}
+
+/* Header */
+header {
+  background: #0f172a;
+  color: white;
+  padding: 20px;
+}
+
+header h2 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #38bdf8;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  padding: 60px 40px;
+  background: white;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+/* Headings */
+h1 {
+  color: #0f172a;
+}
+
+h2 {
+  color: #0f172a;
+}
+
+/* Services List */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #e0f2fe;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 6px;
+}
+
+/* Contact */
+#contact p {
+  font-size: 16px;
+}
+form input, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #0f172a;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1e293b;
+}
+
